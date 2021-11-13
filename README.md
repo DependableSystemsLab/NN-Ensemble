@@ -21,5 +21,7 @@ cp ./confFiles/label_err-10.yaml ./confFiles/sample.yaml
 ./perform_fi_exp.py -b cifar10 -m VGG16
 ```
 Please cite the following paper if you find NN-ensemble useful
----
+
+Understanding the Resilience of Neural Network Ensembles against Faulty Training Data, Abraham Chan, Niranjhana Narayananan, Arpan Gujarati, Karthik Pattabiraman, and Sathish Gopalakrishnan, Proceedings of the IEEE International Symposium on Quality, Reliability and Security (QRS), 2021. 
+
 https://blogs.ubc.ca/dependablesystemslab/2021/10/22/understanding-the-resilience-of-neural-network-ensembles-against-faulty-training-data/
