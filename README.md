@@ -20,6 +20,6 @@ Example with running experiments on CIFAR-10, on the VGG16 model, injecting 10% 
 cp ./confFiles/label_err-10.yaml ./confFiles/sample.yaml
 ./perform_fi_exp.py -b cifar10 -m VGG16
 ```
-Please cite the following paper if you find NN-ensmble useful
+Please cite the following paper if you find NN-ensemble useful
 ---
 https://blogs.ubc.ca/dependablesystemslab/2021/10/22/understanding-the-resilience-of-neural-network-ensembles-against-faulty-training-data/
